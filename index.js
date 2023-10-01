@@ -49,17 +49,12 @@ document.addEventListener("DOMContentLoaded", function () {
         const telefono = document.getElementById("telefono").value;
         const disponibilidad = document.getElementById("disponibilidad").value;
 
-        // Aquí puedes enviar los datos del formulario a un servidor o hacer lo que desees con ellos
-        // Por ahora, solo mostraremos un mensaje en la consola
+
+        // mensaje en la consola
         console.log("Nombre: " + nombre);
         console.log("Correo Electrónico: " + email);
         console.log("Teléfono: " + telefono);
         console.log("Disponibilidad Horaria: " + disponibilidad);
-
-        // Puedes realizar acciones adicionales aquí después de enviar el formulario
-
-        // Mostrar mensaje de confirmación o redirigir a otra página, etc.
-        // ...
 
         // Ocultar el formulario después de enviarlo
         formularioReserva.classList.add("ocultar");
@@ -86,18 +81,10 @@ document.addEventListener("DOMContentLoaded", function () {
         const telefono = document.getElementById("telefono").value;
         const disponibilidad = document.getElementById("disponibilidad").value;
 
-        // Aquí puedes enviar los datos del formulario a un servidor o hacer lo que desees con ellos
-        // Por ahora, solo mostraremos un mensaje en la consola
-        console.log("Nombre: " + nombre);
-        console.log("Correo Electrónico: " + email);
-        console.log("Teléfono: " + telefono);
-        console.log("Disponibilidad Horaria: " + disponibilidad);
+
 
         // Mostrar el mensaje de finalización
         mostrarTarjetaFinalizacion();
-
-        // Puedes realizar acciones adicionales aquí después de enviar el formulario
-        // ...
 
         // Ocultar el formulario después de enviarlo (si es necesario)
         ocultarFormulario();
