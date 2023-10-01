@@ -1,0 +1,32 @@
+[
+    {
+        "id": "tarot",
+        "name": "Tarot",
+        "price": 6500,
+        "image": "https://d22fxaf9t8d39k.cloudfront.net/6fe858b6f1ac4e3e5cf890c0dd8880c6cd515a344dee082dba50e16f0a4a63ab156461.png"
+    },
+    {
+        "id": "rraa",
+        "name": "Registros Akáshicos",
+        "price": 6000,
+        "image": "https://d22fxaf9t8d39k.cloudfront.net/394ed90c20aa3e6cebdfa63367eed8c030f0d8196a0748c0754122452aeda777156461.png"
+    },
+    {
+        "id": "chakras",
+        "name": "Armon. de Chakras",
+        "price": 4500,
+        "image": "https://d22fxaf9t8d39k.cloudfront.net/6482215d1fe6e84e47ac8a1816b1a94206fdfc0d6883e5611af9cb25e0dcfffc156461.png"
+    },
+    {
+        "id": "lazosalma",
+        "name": "Lazos con el Alma",
+        "price": 8400,
+        "image": "https://d22fxaf9t8d39k.cloudfront.net/3038612c1d17a85826ec49928e9bcc574f86cad37583e5c4f8aeacc74a9131ba156461.png"
+    },
+    {
+        "id": "limpieza",
+        "name": "Limpieza Energética",
+        "price": 5800,
+        "image": "https://d22fxaf9t8d39k.cloudfront.net/e0a5d69683c34e6129d506ffc0fa1a0732c224b85b50a6e780a4bce208f2936a156461.png"
+    }
+]

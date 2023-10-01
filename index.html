@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holistic Hole</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="servicios"></div>
+    <div id="tarjetaFinalizacion" class="ocultar">
+    </div>
+    
+    <!-- ... (otros elementos) ... -->
+
+    <div id="formularioReserva" class="ocultar">
+        <h2>Complete sus datos para confirmar la reserva</h2>
+        <form id="formularioDatos">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required><br>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" required><br>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" required><br>
+
+            <label for="disponibilidad">Disponibilidad Horaria:</label>
+            <input type="text" id="disponibilidad" required><br>
+
+            <button type="submit">Confirmar Reserva</button>
+        </form>
+    </div>
+
+    <!-- ... (otros elementos) ... -->
+
+    <form id="formulario" class="ocultar">
+        <input type="text" id="inputServicio" readonly>
+        <button type="button" id="btnCancelar">Cancelar</button>
+        <button type="submit">Reservar</button>
+    </form>
+    <script src="index.js"></script>
+</body>
+
+</html>
